@@ -2,7 +2,6 @@
   "name": "landingpage",
   "version": "0.1.0",
   "main": "./src/index.js",
-  "homepage": "https://nhnam0209.github.io/nhnamportfolio",
   "private": true,
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.26",
