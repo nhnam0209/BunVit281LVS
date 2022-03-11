@@ -2,16 +2,16 @@ $mainColor: #FF4F49;
 
 $width: 768px;
 
-$widthsmall: 740px;
+$widthtablet: 1180px;
 
 @mixin mobile{
     @media (max-width: #{$width}){
         @content
     }
-}
+};
 
-@mixin smallmobile {
-    @media (max-width: #{$widthsmall}){
+@mixin tablet{
+    @media (max-width: #{$widthtablet}){
         @content
     }
 }

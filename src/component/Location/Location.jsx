@@ -20,9 +20,8 @@ export default function Location() {
               
               <img src={d.img} alt="" />
             )}
-          <CopyToClipboard text="281/26/9 Lê Văn Sỹ. Phường 1. Tân Bình"
-              onCopy={() => this.setState({copied: true})}>
-              <button>Ấn để copy lấy địa chỉ</button>
+          <CopyToClipboard text="281/26/9 Lê Văn Sỹ. Phường 1. Tân Bình">
+              <button onClick={() => {alert("Đã copy địa chỉ")}}>Ấn để copy lấy địa chỉ</button>
           </CopyToClipboard>
 
         </div>

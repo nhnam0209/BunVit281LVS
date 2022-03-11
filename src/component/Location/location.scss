@@ -8,6 +8,9 @@
     @include mobile{
         justify-content: space-around; 
       }  
+    @include tablet{
+        justify-content: space-around; 
+    }  
     
     h1{
         font-size: 70px;
@@ -33,6 +36,9 @@
         @include mobile{
             height: 50vh;
         }
+        @include tablet{
+            height: 50vh;
+        }
 
         .item{
             margin-top: 100px;
@@ -48,6 +54,11 @@
                 height: 100%;
                 margin-top: 50px;
             }
+            @include tablet{
+                flex-direction: column;   
+                height: 100%;
+                margin-top: 50px;
+            }
     
             
         }
@@ -56,6 +67,11 @@
             width: 80%;
             height: 90%;
             @include mobile{
+
+                width: 700px;
+                height: 250px;
+            }
+            @include tablet{
 
                 width: 700px;
                 height: 250px;
